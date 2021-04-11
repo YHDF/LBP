@@ -1,0 +1,11 @@
+extends signup
+
+block content
+    div.login_frame(style="height : 20%")
+            form(action="/auth/store-token" method="POST")
+                div.lbl
+                    label(for="token") token d'identification :
+                div.txt
+                    input(type="text", name="token")
+                div.submit-btn
+                    input(type="submit", value="Vérifier")

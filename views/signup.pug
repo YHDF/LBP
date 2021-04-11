@@ -1,0 +1,19 @@
+extends layouts/auth-layout 
+
+block content
+    div.login_frame(style="height : 45%")
+            form(action="/auth/create" method="POST")
+                div.lbl
+                    label(for="username") nom d'utilisateur :
+                div.txt
+                    input(type="text", name="username")
+                div.lbl
+                    label(for="email") addresse email :
+                div.txt
+                    input(type="text", name="email")
+                div.lbl
+                    label(for="password") mot de passe :
+                div.txt
+                    input(type="password", name="password")
+                div.submit-btn
+                    input(type="submit", value="S'inscrire")

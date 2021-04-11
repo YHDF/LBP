@@ -1,0 +1,62 @@
+.login_frame{
+    position: relative;
+    top: 25%;
+    margin-left: 38%;
+    width: 18%;
+    height: 30%;
+    background-color: #f0f2f5;
+    border-radius: 5px;
+}
+.lbl{
+    font-weight: 200;
+    padding-top: 8%;
+    height: 30px;/*10%*/
+}
+label{
+    margin-top: 50%;
+    margin-left: 10%;
+}
+.nopasswd {
+    font-size: 12px;
+    padding-top: 5%;
+    height: 5%;
+}
+.nopasswd a{
+    padding-left: 65%;
+    text-decoration: none;
+    color: #3d81ff;
+}
+
+.txt input{
+    border: 0.5px solid #dedede;
+    border-radius: 10px;
+    margin-left: 10%;
+    width: 80%;
+    height: 25px;/*100%*/
+}
+.txt{
+    height: 10%;
+}
+.txt input:focus{
+    outline: none;
+    box-shadow: 0 0 2pt 2pt #b3d1ff;
+    border: 2px solid #5498ff;
+    border-radius: 10px;
+    margin-left: 10%;
+    width: 80%;
+    height: 25px;/*100%*/
+}
+.submit-btn{
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 50%;
+    height: 50px;/*15%*/
+}
+.submit-btn input{
+    border: none;
+    border-radius: 5px;
+    background-color: #2ea44f; 
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+extends layouts/auth-layout
+
+block content
+    div.login_frame(style="height:35%")
+        form(action="/auth/connect" method="POST")
+            div.lbl
+                label(for="email") addresse email :
+            div.txt
+                input(type="text", name="email")
+            div.nopasswd
+                a(href="#") forgot password ? 
+            div.lbl
+                label(for="password") mot de passe :
+            div.txt
+                input(type="password", name="password")
+            div.submit-btn
+                input(type="submit", value="Se connecter")

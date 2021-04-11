@@ -1,0 +1,123 @@
+html{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 60%;
+    width: 100%;
+
+}
+.logo{
+    margin-left: 5%;
+    margin-top: 20%;
+    font-size: 1vw;;
+    font-weight: 200;
+    color: black;
+    width: 90%;
+    height: 15%;
+}
+  
+.logo  .logoL{
+    display: inline-block;
+    width: 42%;
+}
+.logo .logoM{
+    display: inline-block;
+    width: 90px;
+    height: 75px;
+    background-image: url('../images/web.png');
+    background-repeat: no-repeat;
+    background-size: 75px 75px;
+    animation-name: Appear;
+    animation-duration: 2.75s;
+    animation-delay: 2.5s;
+    animation-fill-mode: Forwards;
+    animation-iteration-count: 1;
+    opacity: 0;
+    margin-left: 60px;
+}
+.logo .logoR{
+    display: inline-block;
+    width: 42%;
+}
+.logoLR{
+    font-size: 4em;
+    margin-left: 0%;
+    animation-name: SlideLR;
+    animation-duration: 0.75s;
+    animation-delay: 1s;
+    animation-fill-mode: Forwards;
+    animation-iteration-count: 1;
+    visibility: hidden;
+    
+}
+.logoRL{
+    font-size: 4em;
+    margin-left: 100%;
+    animation-name: SlideRL;
+    animation-duration: 0.75s;
+    animation-delay: 1.75s;
+    animation-fill-mode: Forwards;
+    animation-iteration-count: 1;
+    visibility: hidden;
+}
+@keyframes SlideLR{
+    0%{visibility: visible;padding-left: 0%;} 
+    100%{visibility: visible;padding-left: 84%;}
+  
+}
+  
+@keyframes SlideRL{
+    0%{visibility: visible;margin-left: 100%;} 
+    100%{visibility: visible;margin-left: 2%;}  
+}
+  
+@keyframes Appear{
+    0%{opacity: 0;}
+    100%{opacity: 1;}  
+}
+.identification{
+    font-size: 1.5vw;;
+    font-weight: 200;
+    color: black;
+    width: 15%;
+    height : 10%;
+    margin-left: 42%;
+    margin-top: 2%;
+}
+
+.login{
+    width: 40%;
+    display: inline-block;
+}
+.sep{
+    width: 10%;
+    height: 25px;
+    border-left: solid 1px black;
+    display: inline-block;
+}
+.join{
+    width: 45%;
+    display: inline-block;
+}
+
+.login > a{
+    font-size: 1.5vw;;
+    font-weight: 200;
+    color: black;
+    text-decoration: none;
+}
+
+.login > a:hover{
+    font-weight: 300;
+}
+
+.join > a{
+    font-size: 1.5vw;;
+    font-weight: 200;
+    color: black;
+    text-decoration: none;
+}
+
+.join > a:hover{
+    font-weight: 300;
+}

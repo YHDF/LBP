@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+/**********************************************************************************************************/
+
+
+.column {
+  float: left;
+  width: 22%;
+  padding: 0 10px;
+  margin-top: 70px;
+  margin-left: 55px;
+}
+
+
+
+/**********************************************************************************************************/
+
+.table_manager {
+  background-color: white;
+  margin-top: 5%;
+  border : 1px solid black; 
+  border-radius: 5px;
+  margin-left: 5%;
+  width: 90%;
+  padding: 1%;
+}
+
+.category_table {
+  margin-left: 5%;
+  width: 90%;
+  margin-top: 70px;
+}
